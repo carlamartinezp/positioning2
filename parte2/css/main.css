@@ -1,0 +1,29 @@
+.padre{
+	width:400px;
+	height:400px;
+	align-content:center;
+	background-color:blue;
+	position: static;
+
+	
+}
+.hijo{
+	width:200px;
+	height:200px;
+	align-content:center;
+	background-color:green;
+	position:relative;
+	top:25%;
+	left:25%
+	
+}
+
+.nieto{
+	width:100px;
+	height:100px;
+	background-color:black;
+	position:absolute;
+	bottom:200px;
+	right:200px;
+	
+}
